@@ -64,4 +64,5 @@ layout_margin 값으로 0이상의 값을 가집니다. 단위는 Dimension입�
 
 ## References
 - [ConstraintLayout](https://developer.android.com/reference/androidx/constraintlayout/widget/ConstraintLayout)
+- [\[Android\] ConstraintLayout 톺아보기 (안드로이드 공식 문서 번역)](https://shinjekim.github.io/android/2019/08/07/Android-ConstraintLayout/)
 
