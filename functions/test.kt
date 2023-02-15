@@ -4,6 +4,11 @@ import java.util.*
 
 fun main(args: Array<String>) {
     feedTheFish()
+
+    // 함수의 매개변수에 전달하는 방법
+    swim()
+    swim("slow")
+    swim(speed = "slow")
 }
 
 fun feedTheFish() {
