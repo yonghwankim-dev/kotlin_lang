@@ -10,6 +10,7 @@
 - [x] [lateinit](#lateinit)
 - [x] [ActivityMainBinding](#ActivityMainBinding)
 - [ ] [Intent](#Intent)
+- [코틀린 함수](functions/README.md)
 
 ## ConstraintLayout
 - 유동적인 방법으로 위치와 크기를 변경할 수 있는 레이아웃
