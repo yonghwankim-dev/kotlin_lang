@@ -1,4 +1,4 @@
-## 학습목표
+## 목차
 - [ ] [ConstraintLayout](#ConstraintLayout)
 - [ ] viewBinding
 - [x] [코틀린 코딩 컨벤션](#코틀린-코딩-컨벤션)
