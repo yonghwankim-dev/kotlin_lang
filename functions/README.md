@@ -21,4 +21,16 @@ https://github.com/yonghwankim-dev/kotlin_lang/blob/e77b2bcec710ac5473ed240d78ac
 
 매개변수의 기본값이 적용된 함수를 다음과 같이 호출 할 수 있습니다.
 
+https://github.com/yonghwankim-dev/kotlin_lang/blob/c46bca4e3a36b51a9ce1d926c455b609438cbaa2/functions/test.kt#L9-L11
+
+요구되는 파라미터를 설정하기 위해서는 매개변수의 기본값을 다음과 같이 설정하지 않으면 됩니다.
+
+https://github.com/yonghwankim-dev/kotlin_lang/blob/c46bca4e3a36b51a9ce1d926c455b609438cbaa2/functions/test.kt#L45-L52
+
+위 코드를 보면 temperature, dirty 매개변수는 기본값이 설정되어 있지만 day 매개변수는 호출시 무조건 값을 넣어야 합니다.
+
+## 압축 함수(compact function) 만들기
+압축 함수는 다음과 같이 만들 수 있습니다.
+
+https://github.com/yonghwankim-dev/kotlin_lang/blob/c46bca4e3a36b51a9ce1d926c455b609438cbaa2/functions/test.kt#L55-L59
 
