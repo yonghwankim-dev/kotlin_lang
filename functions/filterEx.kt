@@ -33,4 +33,25 @@ fun main() {
         }
     println("---")
     println("filtered: ${lazyMap2.toList()}")
+
+    // 람다와 고차 함수
+    
+    var dirtylevel = 20
+    val waterFilter = { dirty : Int -> dirty / 2}
+    println(waterFilter(dirtylevel))
+
+    val waterFilter2: (Int) -> Int = { dirty -> dirty / 2}
+    println(waterFilter2(dirtylevel))
+    
+    fun updateDirty(dirty: Int, operation: (Int) -> Int): Int {
+        return operation(dirty)
+    }
+
+    println(updateDirty(20, waterFilter))
+
+    fun increaseDirty(start: Int) = start + 1
+    println(updateDirty(15, ::increaseDirty))
+
+    dirtylevel = updateDirty(dirtylevel){ dirtylevel -> dirtylevel + 23}
+    println(dirtylevel)
 }
