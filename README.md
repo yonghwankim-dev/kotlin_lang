@@ -263,7 +263,7 @@ fun birthdayGreeting(name: String = "Rover", age: Int): String{
 
 예를 들어 다음 코드는 lateinit으로 초기화하지 않은 프로퍼티 text를 "initText"메서드에서 초기화하는 코드입니다.
 ```
-class Example {
+Class Example {
     lateinit var text: String
 
     fun initText() {
